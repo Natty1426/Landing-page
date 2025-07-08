@@ -5,12 +5,6 @@
     font-family:sans-serif;
 }
 
-html{
-    background: url(../CODES/IMG-20231123-WA0011.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 header{
     position:fixed;
@@ -21,7 +15,6 @@ header{
     display:flex;
     justify-content: space-between;
     align-items:center ;
-    z-index: 100;
 }
 
 .logo{
@@ -35,7 +28,7 @@ span{
 }
 
 .navigation a {
-    font-size:1.1em;
+    font-size:1.4em;
     color:rgb(68, 60, 60);
     text-decoration:none;
     margin-right: 40px;
@@ -43,9 +36,8 @@ span{
     transition: 0.3s;
 }
 
-.navigation a:hover{
+.navigation:hover {
     color:orange;
-
 }
 
 .download{
@@ -56,6 +48,7 @@ span{
     border-radius:10px;
     border:2px solid orange;
     font-weight:500;
+    font-size: 1.4em;
     transition: .3s;
 }
 

@@ -148,15 +148,53 @@ span{
     font-size:20px;
  }
 
- @media (max-width: 875px) {
-    header{
+ @media (max-width: 1080px) {
+
+.logo{
+    font-size:1.2em;
+    margin-right: 12px;
+}
+
+.navigation a {
+    font-size:1em;
+    margin-right: 30px;
+}
+
+
+.download{
+    padding: 6px 30px;
+    font-size: 1em;
+}
+
+.home{
+    flex-direction: column;
+}
+
+.content h2{
+    font-size: 2.6em;
+}
+.content h4 {
+    font-size: 1.6em;
+}
+
+.image{
+    width: 50px;
+    position: relative;
+}
+
+
+}
+
+ @media (max-width: 895px) {
+
+header{
     width: 100%;
     display:flex;
     justify-content: space-between;
     align-items:center ;
     }
    
-    .logo{
+.logo{
     font-size:1em;
     margin-right: 12px;
 }
@@ -166,18 +204,9 @@ span{
     margin-right: 30px;
 }
 
-.navigation:hover {
-    color:orange;
-}
-
 .download{
     padding:4px 30px;
     font-size: 0.8em;
-}
-
-.download:hover{
-    color:orange;
-    background:transparent;
 }
 
 .home{

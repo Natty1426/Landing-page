@@ -7,9 +7,6 @@
 
 
 header{
-    position:fixed;
-    top:0;
-    left: 0;
     width: 100%;
     padding: 30px 100px;
     display:flex;
@@ -49,7 +46,7 @@ span{
     border:2px solid orange;
     font-weight:500;
     font-size: 1.4em;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .download:hover{
@@ -150,3 +147,57 @@ span{
     color: rgb(68, 60, 60);
     font-size:20px;
  }
+
+ @media (max-width: 875px) {
+    header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    }
+   
+    .logo{
+    font-size:1em;
+    margin-right: 12px;
+}
+
+.navigation a {
+    font-size:0.8em;
+    margin-right: 30px;
+}
+
+.navigation:hover {
+    color:orange;
+}
+
+.download{
+    padding:4px 30px;
+    font-size: 0.8em;
+}
+
+.download:hover{
+    color:orange;
+    background:transparent;
+}
+
+.home{
+    flex-direction: column;
+}
+
+.content h2{
+    font-size:2.4em;
+}
+.content h4 {
+    font-size:1.4em;
+}
+
+.content p{
+    padding:10px 0 40px 0;
+}
+
+.image{
+    width: 50px;
+    position: relative;
+}
+
+}

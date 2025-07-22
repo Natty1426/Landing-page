@@ -230,3 +230,49 @@ header{
 }
 
 }
+
+ @media (max-width: 385px) {
+
+header{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center ;
+    }
+   
+.logo{
+    font-size:1em;
+    margin-right: 12px;
+}
+
+.navigation a {
+    font-size:0.8em;
+    margin-right: 30px;
+}
+
+.download{
+    padding:4px 30px;
+    font-size: 0.8em;
+}
+
+.home{
+    flex-direction: column;
+}
+
+.content h2{
+    font-size:2.4em;
+}
+.content h4 {
+    font-size:1.4em;
+}
+
+.content p{
+    padding:10px 0 40px 0;
+}
+
+.image{
+    width: 50px;
+    position: relative;
+}
+
+}
